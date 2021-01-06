@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    height: auto;
+    width: auto;
+}
+h1{
+    color: crimson;
+
+}
+.nav-height{
+    height:40px ;
+}
+nav{
+    text-decoration: none;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    height: 6px;
+    padding: 0px 5%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    height: 30px;
+     text-decoration: none;
+    margin: 30px;
+    color: orangered;
+   
+}
+h1{
+    font-size: 50px;
+}
+p{
+    color: dimgray;
+}
+.name-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.top-banner{
+    background-image: url("imges/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+   background-image: linear-gradient(lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.deam-area{
+    background-image: url("imges/dream-bg.png");
+    background-repeat: no-repeat;
+  background-position: right;
+}
+#services{
+    padding: 100px 50px;
+  height: 250px;
+}
+.section-info{
+    text-align: center;
+}
+.service-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+
+}
+.services-box{
+    flex-basis: 25%;
+   text-align: center;
+   color: red;
+ 
+  box-shadow: 2px 3px 5px red;
+  padding: 30px;
+  border-radius: 10px;
+
+}
+.services-box img{
+width: 60%;
+border-radius: 10px;
+background-color:rebeccapurple;
+
+
+}
+.footer-section{
+    background-image: url(imges/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    margin-left: 22%;
+    margin-top: 15%;
+    padding-left: 3%;
+    padding-top: 2%;
+    margin-bottom: 0;
+    height: 200px;
+}
+.footer-section{
+    display: flex;
+}
+
+#footer-div-2{
+    margin-left: 350px;
+    margin-top: 90px;
+}
+
+.contactline{
+    color: orangered;
+    text-align: center;
+}
+.mail{
+    color: orchid;
+    text-align: center;
+}
+#mail{
+    font-size: 40px;
+}
+.contactlogo{
+    text-align: center;
+}
+.contactlogo img{
+    width: 36.04px;
+    height: 36px;
+    padding: 8px;
+}
+.contactus{
+   height: 170px;
+}
+footer{
+    text-align: center;
+margin-bottom: 15px;
+}
+#last-footer{
+    color: royalblue;
+}
+h3{
+    color:brown;
+}
